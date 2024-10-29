@@ -1,5 +1,6 @@
-import requests
 import os
+
+import requests
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -16,7 +17,9 @@ def parse_response(response):
     return departures
 
 def test_realtraintimes_api_response():
-    response = requests.get('https://api.rtt.io/api/v1/json/search/BWD', auth=(username, password))
+    response = requests.get('https://api.rtt.io/api/v1/json/search/BWD',
+                            auth=(username, password),
+                            timeout=10)
     assert response.status_code == 200
     json_response = response.json()
     assert 'services' in json_response
