@@ -34,7 +34,7 @@ def test_realtraintimes_api_response():
         assert isinstance(departure[2], str)
 
 def test_realtraintimes_api_birchwood_to_urmston():
-    response = requests.get('https://api.rtt.io/api/v1/json/search/BWD',
+    response = requests.get('https://api.rtt.io/api/v1/json/search/BWD/to/URM',
                             auth=(username, password),
                             timeout=10)
     assert response.status_code == 200
