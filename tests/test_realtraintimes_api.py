@@ -13,7 +13,7 @@ def parse_response(response):
     for service in response['services']:
         scheduled_time = service['locationDetail']['gbttBookedDeparture']
         real_time = service['locationDetail']['realtimeDeparture']
-        destination = service['locationDetail']['destination'][0]['locationName']
+        destination = service['locationDetail']['destination'][0]['tiploc']
         departures.append((scheduled_time, real_time, destination))
     return departures
 
