@@ -12,8 +12,9 @@ def parse_response(response):
     departures = []
     for service in response['services']:
         scheduled_time = service['locationDetail']['gbttBookedDeparture']
-        real_tme = service['locationDetail']['realtimeDeparture']
-        departures.append((scheduled_time, real_tme))
+        real_time = service['locationDetail']['realtimeDeparture']
+        destination = service['locationDetail']['destination'][0]['locationName']
+        departures.append((scheduled_time, real_time, destination))
     return departures
 
 def test_realtraintimes_api_response():
@@ -27,6 +28,7 @@ def test_realtraintimes_api_response():
     assert isinstance(departures, list)
     for departure in departures:
         assert isinstance(departure, tuple)
-        assert len(departure) == 2
+        assert len(departure) == 3
         assert isinstance(departure[0], str)
         assert isinstance(departure[1], str)
+        assert isinstance(departure[2], str)
