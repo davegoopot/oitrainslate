@@ -5,8 +5,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-username = os.getenv('USERNAME')
-password = os.getenv('PASSWORD')
+username = os.getenv('RTTUSERNAME')
+password = os.getenv('RTTPASSWORD')
 
 def parse_response(response):
     departures = []
