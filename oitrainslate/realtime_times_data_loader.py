@@ -9,4 +9,6 @@ class RealTimeTimesDataLoader:
         response = requests.get(f'https://api.rtt.io/api/v1/json/search/{stationCode}',
                                 auth=(self.username, self.password),
                                 timeout=10)
+        if not response.ok:
+            response.raise_for_status()
         return response.text
