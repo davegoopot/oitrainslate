@@ -2,20 +2,12 @@ import os
 
 import requests
 from dotenv import load_dotenv
+from oitrainslate.realtraintimes import parse_response, TrainJourney
 
 load_dotenv()
 
 username = os.getenv('USERNAME')
 password = os.getenv('PASSWORD')
-
-def parse_response(response):
-    departures = []
-    for service in response['services']:
-        scheduled_time = service['locationDetail']['gbttBookedDeparture']
-        real_time = service['locationDetail']['realtimeDeparture']
-        destination = service['locationDetail']['destination'][0]['tiploc']
-        departures.append((scheduled_time, real_time, destination))
-    return departures
 
 def test_realtraintimes_api_response():
     response = requests.get('https://api.rtt.io/api/v1/json/search/BWD',
@@ -24,11 +16,12 @@ def test_realtraintimes_api_response():
     assert response.status_code == 200
     json_response = response.json()
     assert 'services' in json_response
-    departures = parse_response(json_response)
-    assert isinstance(departures, list)
-    for departure in departures:
-        assert isinstance(departure, tuple)
-        assert len(departure) == 3
-        assert isinstance(departure[0], str)
-        assert isinstance(departure[1], str)
-        assert isinstance(departure[2], str)
+    journeys = parse_response(json_response)
+    assert isinstance(journeys, list)
+    for journey in journeys:
+        assert isinstance(journey, TrainJourney)
+        assert isinstance(journey.departure_station, str)
+        assert isinstance(journey.departure_time, str)
+        assert isinstance(journey.stations, list)
+        for station in journey.stations:
+            assert isinstance(station, str)
