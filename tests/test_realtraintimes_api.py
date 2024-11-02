@@ -6,8 +6,8 @@ from oitrainslate.realtraintimes import parse_response, TrainJourney
 
 load_dotenv()
 
-username = os.getenv('USERNAME')
-password = os.getenv('PASSWORD')
+username = os.getenv('RTTUSERNAME')
+password = os.getenv('RTTPASSWORD')
 
 def test_realtraintimes_api_response():
     response = requests.get('https://api.rtt.io/api/v1/json/search/BWD',
