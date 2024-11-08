@@ -1,0 +1,2141 @@
+{
+    "location": {
+        "name": "Manchester Piccadilly",
+        "crs": "MAN",
+        "tiploc": "MNCRPIC",
+        "country": "gb",
+        "system": "nr"
+    },
+    "filter": null,
+    "services": [
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedArrival": "1306",
+                "gbttBookedDeparture": "1309",
+                "origin": [
+                    {
+                        "tiploc": "CLTHRPS",
+                        "description": "Cleethorpes",
+                        "workingTime": "102600",
+                        "publicTime": "1026"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "LVRPLSH",
+                        "description": "Liverpool Lime Street",
+                        "workingTime": "140100",
+                        "publicTime": "1401"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeArrival": "1312",
+                "realtimeArrivalActual": false,
+                "realtimeDeparture": "1315",
+                "realtimeDepartureActual": false,
+                "platform": "14",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "CALL"
+            },
+            "serviceUid": "C42400",
+            "runDate": "2024-11-03",
+            "trainIdentity": "1B75",
+            "runningIdentity": "1B75",
+            "atocCode": "TP",
+            "atocName": "Transpennine Express",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedDeparture": "1310",
+                "origin": [
+                    {
+                        "tiploc": "MNCRPIC",
+                        "description": "Manchester Piccadilly",
+                        "workingTime": "131000",
+                        "publicTime": "1310"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "CHST",
+                        "description": "Chester",
+                        "workingTime": "143500",
+                        "publicTime": "1435"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeDeparture": "1310",
+                "realtimeDepartureActual": false,
+                "platform": "8",
+                "platformConfirmed": true,
+                "platformChanged": false,
+                "serviceLocation": "AT_PLAT",
+                "displayAs": "ORIGIN"
+            },
+            "serviceUid": "G37134",
+            "runDate": "2024-11-03",
+            "trainIdentity": "2D44",
+            "runningIdentity": "2D44",
+            "atocCode": "NT",
+            "atocName": "Northern",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedArrival": "1313",
+                "gbttBookedDeparture": "1314",
+                "origin": [
+                    {
+                        "tiploc": "MNCRIAP",
+                        "description": "Manchester Airport",
+                        "workingTime": "125500",
+                        "publicTime": "1255"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "GLGC",
+                        "description": "Glasgow Central",
+                        "workingTime": "164300",
+                        "publicTime": "1643"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeArrival": "1309",
+                "realtimeArrivalActual": false,
+                "realtimeDeparture": "1314",
+                "realtimeDepartureActual": false,
+                "platform": "14",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "CALL"
+            },
+            "serviceUid": "C42817",
+            "runDate": "2024-11-03",
+            "trainIdentity": "1S61",
+            "runningIdentity": "1S61",
+            "atocCode": "TP",
+            "atocName": "Transpennine Express",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedDeparture": "1315",
+                "origin": [
+                    {
+                        "tiploc": "MNCRPIC",
+                        "description": "Manchester Piccadilly",
+                        "workingTime": "131500",
+                        "publicTime": "1315"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "EUSTON",
+                        "description": "London Euston",
+                        "workingTime": "153000",
+                        "publicTime": "1530"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeDeparture": "1315",
+                "realtimeDepartureActual": false,
+                "platform": "7",
+                "platformConfirmed": true,
+                "platformChanged": false,
+                "serviceLocation": "AT_PLAT",
+                "displayAs": "ORIGIN"
+            },
+            "serviceUid": "C21660",
+            "runDate": "2024-11-03",
+            "trainIdentity": "1A34",
+            "runningIdentity": "1A34",
+            "atocCode": "VT",
+            "atocName": "Avanti West Coast",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedArrival": "1314",
+                "gbttBookedDeparture": "1317",
+                "origin": [
+                    {
+                        "tiploc": "LVRPLSH",
+                        "description": "Liverpool Lime Street",
+                        "workingTime": "122000",
+                        "publicTime": "1220"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "CLTHRPS",
+                        "description": "Cleethorpes",
+                        "workingTime": "155230",
+                        "publicTime": "1553"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeArrival": "1314",
+                "realtimeArrivalActual": false,
+                "realtimeDeparture": "1317",
+                "realtimeDepartureActual": false,
+                "platform": "13",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "CALL"
+            },
+            "serviceUid": "C42411",
+            "runDate": "2024-11-03",
+            "trainIdentity": "1B78",
+            "runningIdentity": "1B78",
+            "atocCode": "TP",
+            "atocName": "Transpennine Express",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedDeparture": "1320",
+                "origin": [
+                    {
+                        "tiploc": "MNCRPIC",
+                        "description": "Manchester Piccadilly",
+                        "workingTime": "132000",
+                        "publicTime": "1320"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "HULL",
+                        "description": "Hull",
+                        "workingTime": "152300",
+                        "publicTime": "1523"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeDeparture": "1320",
+                "realtimeDepartureActual": false,
+                "platform": "1",
+                "platformConfirmed": true,
+                "platformChanged": false,
+                "serviceLocation": "AT_PLAT",
+                "displayAs": "ORIGIN"
+            },
+            "serviceUid": "C29853",
+            "runDate": "2024-11-03",
+            "trainIdentity": "1K21",
+            "runningIdentity": "1K21",
+            "atocCode": "TP",
+            "atocName": "Transpennine Express",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedArrival": "1320",
+                "gbttBookedDeparture": "1322",
+                "origin": [
+                    {
+                        "tiploc": "BLCKPLN",
+                        "description": "Blackpool North",
+                        "workingTime": "115100",
+                        "publicTime": "1151"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "MNCRIAP",
+                        "description": "Manchester Airport",
+                        "workingTime": "133600",
+                        "publicTime": "1336"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeArrival": "1321",
+                "realtimeArrivalActual": false,
+                "realtimeDeparture": "1323",
+                "realtimeDepartureActual": false,
+                "platform": "13",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "CALL"
+            },
+            "serviceUid": "G35004",
+            "runDate": "2024-11-03",
+            "trainIdentity": "1Y60",
+            "runningIdentity": "1Y60",
+            "atocCode": "NT",
+            "atocName": "Northern",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedArrival": "1320",
+                "gbttBookedDeparture": "1322",
+                "origin": [
+                    {
+                        "tiploc": "WLMSL",
+                        "description": "Wilmslow",
+                        "workingTime": "123800",
+                        "publicTime": "1238"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "LVRPLSH",
+                        "description": "Liverpool Lime Street",
+                        "workingTime": "142400",
+                        "publicTime": "1424"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeArrival": "1321",
+                "realtimeArrivalActual": false,
+                "realtimeDeparture": "1322",
+                "realtimeDepartureActual": false,
+                "platform": "14",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "CALL"
+            },
+            "serviceUid": "G35413",
+            "runDate": "2024-11-03",
+            "trainIdentity": "2F15",
+            "runningIdentity": "2F15",
+            "atocCode": "NT",
+            "atocName": "Northern",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedDeparture": "1325",
+                "origin": [
+                    {
+                        "tiploc": "MNCRPIC",
+                        "description": "Manchester Piccadilly",
+                        "workingTime": "132500",
+                        "publicTime": "1325"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "DIDCOTP",
+                        "description": "Didcot Parkway",
+                        "workingTime": "162900",
+                        "publicTime": "1629"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeDeparture": "1325",
+                "realtimeDepartureActual": false,
+                "platform": "4",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "ORIGIN"
+            },
+            "serviceUid": "C79574",
+            "runDate": "2024-11-03",
+            "trainIdentity": "1O20",
+            "runningIdentity": "1O20",
+            "atocCode": "XC",
+            "atocName": "CrossCountry",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedDeparture": "1330",
+                "origin": [
+                    {
+                        "tiploc": "MNCRPIC",
+                        "description": "Manchester Piccadilly",
+                        "workingTime": "133000",
+                        "publicTime": "1330"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "SWANSEA",
+                        "description": "Swansea",
+                        "workingTime": "180600",
+                        "publicTime": "1806"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeDeparture": "1330",
+                "realtimeDepartureActual": false,
+                "platform": "5",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "ORIGIN"
+            },
+            "serviceUid": "L40369",
+            "runDate": "2024-11-03",
+            "trainIdentity": "1V17",
+            "runningIdentity": "1V17",
+            "atocCode": "AW",
+            "atocName": "Transport for Wales",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedDeparture": "1333",
+                "origin": [
+                    {
+                        "tiploc": "MNCRPIC",
+                        "description": "Manchester Piccadilly",
+                        "workingTime": "133300",
+                        "publicTime": "1333"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "HADFILD",
+                        "description": "Hadfield",
+                        "workingTime": "141200",
+                        "publicTime": "1412"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeDeparture": "1333",
+                "realtimeDepartureActual": false,
+                "platform": "2",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "ORIGIN"
+            },
+            "serviceUid": "G35427",
+            "runDate": "2024-11-03",
+            "trainIdentity": "2G08",
+            "runningIdentity": "2G08",
+            "atocCode": "NT",
+            "atocName": "Northern",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedDeparture": "1335",
+                "origin": [
+                    {
+                        "tiploc": "MNCRPIC",
+                        "description": "Manchester Piccadilly",
+                        "workingTime": "133500",
+                        "publicTime": "1335"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "EUSTON",
+                        "description": "London Euston",
+                        "workingTime": "154200",
+                        "publicTime": "1542"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeDeparture": "1335",
+                "realtimeDepartureActual": false,
+                "platform": "6",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "ORIGIN"
+            },
+            "serviceUid": "C21663",
+            "runDate": "2024-11-03",
+            "trainIdentity": "1A37",
+            "runningIdentity": "1A37",
+            "atocCode": "VT",
+            "atocName": "Avanti West Coast",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedArrival": "1336",
+                "gbttBookedDeparture": "1337",
+                "origin": [
+                    {
+                        "tiploc": "NTNG",
+                        "description": "Nottingham",
+                        "workingTime": "114200",
+                        "publicTime": "1142"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "LVRPLSH",
+                        "description": "Liverpool Lime Street",
+                        "workingTime": "142900",
+                        "publicTime": "1429"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeArrival": "1335",
+                "realtimeArrivalActual": false,
+                "realtimeDeparture": "1337",
+                "realtimeDepartureActual": false,
+                "platform": "14",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "CALL"
+            },
+            "serviceUid": "C61966",
+            "runDate": "2024-11-03",
+            "trainIdentity": "1R54",
+            "runningIdentity": "1R54",
+            "atocCode": "EM",
+            "atocName": "East Midlands Railway",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedArrival": "1336",
+                "gbttBookedDeparture": "1339",
+                "origin": [
+                    {
+                        "tiploc": "CHST",
+                        "description": "Chester",
+                        "workingTime": "123600",
+                        "publicTime": "1236"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "MNCRIAP",
+                        "description": "Manchester Airport",
+                        "workingTime": "135700",
+                        "publicTime": "1357"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeArrival": "1340",
+                "realtimeArrivalActual": false,
+                "realtimeDeparture": "1343",
+                "realtimeDepartureActual": false,
+                "platform": "13",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "CALL"
+            },
+            "serviceUid": "L39786",
+            "runDate": "2024-11-03",
+            "trainIdentity": "1H83",
+            "runningIdentity": "1H83",
+            "atocCode": "AW",
+            "atocName": "Transport for Wales",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedArrival": "1342",
+                "gbttBookedDeparture": "1343",
+                "origin": [
+                    {
+                        "tiploc": "LVRPLSH",
+                        "description": "Liverpool Lime Street",
+                        "workingTime": "125100",
+                        "publicTime": "1251"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "NRCH",
+                        "description": "Norwich",
+                        "workingTime": "182200",
+                        "publicTime": "1824"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeArrival": "1341",
+                "realtimeArrivalActual": false,
+                "realtimeDeparture": "1343",
+                "realtimeDepartureActual": false,
+                "platform": "13",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "CALL"
+            },
+            "serviceUid": "C62113",
+            "runDate": "2024-11-03",
+            "trainIdentity": "1L11",
+            "runningIdentity": "1L11",
+            "atocCode": "EM",
+            "atocName": "East Midlands Railway",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedDeparture": "1345",
+                "origin": [
+                    {
+                        "tiploc": "MNCRPIC",
+                        "description": "Manchester Piccadilly",
+                        "workingTime": "134500",
+                        "publicTime": "1345"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "SHEFFLD",
+                        "description": "Sheffield",
+                        "workingTime": "150100",
+                        "publicTime": "1501"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeDeparture": "1345",
+                "realtimeDepartureActual": false,
+                "platform": "3",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "ORIGIN"
+            },
+            "serviceUid": "G35953",
+            "runDate": "2024-11-03",
+            "trainIdentity": "2S82",
+            "runningIdentity": "2S82",
+            "atocCode": "NT",
+            "atocName": "Northern",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedArrival": "1346",
+                "gbttBookedDeparture": "1347",
+                "origin": [
+                    {
+                        "tiploc": "EDINBUR",
+                        "description": "Edinburgh",
+                        "workingTime": "101300",
+                        "publicTime": "1013"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "MNCRIAP",
+                        "description": "Manchester Airport",
+                        "workingTime": "140100",
+                        "publicTime": "1403"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeArrival": "1345",
+                "realtimeArrivalActual": false,
+                "realtimeDeparture": "1347",
+                "realtimeDepartureActual": false,
+                "platform": "13",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "CALL"
+            },
+            "serviceUid": "C42579",
+            "runDate": "2024-11-03",
+            "trainIdentity": "1M85",
+            "runningIdentity": "1M85",
+            "atocCode": "TP",
+            "atocName": "Transpennine Express",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedDeparture": "1351",
+                "origin": [
+                    {
+                        "tiploc": "MNCRPIC",
+                        "description": "Manchester Piccadilly",
+                        "workingTime": "135100",
+                        "publicTime": "1351"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "BUXTON",
+                        "description": "Buxton",
+                        "workingTime": "145200",
+                        "publicTime": "1452"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeDeparture": "1351",
+                "realtimeDepartureActual": false,
+                "platform": "11",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "ORIGIN"
+            },
+            "serviceUid": "G35106",
+            "runDate": "2024-11-03",
+            "trainIdentity": "2B10",
+            "runningIdentity": "2B10",
+            "atocCode": "NT",
+            "atocName": "Northern",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedArrival": "1350",
+                "gbttBookedDeparture": "1351",
+                "origin": [
+                    {
+                        "tiploc": "DLTN",
+                        "description": "Darlington",
+                        "workingTime": "113600",
+                        "publicTime": "1136"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "MNCRIAP",
+                        "description": "Manchester Airport",
+                        "workingTime": "141000",
+                        "publicTime": "1412"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeArrival": "1349",
+                "realtimeArrivalActual": false,
+                "realtimeDeparture": "1351",
+                "realtimeDepartureActual": false,
+                "platform": "13",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "CALL"
+            },
+            "serviceUid": "C30048",
+            "runDate": "2024-11-03",
+            "trainIdentity": "1P70",
+            "runningIdentity": "1P70",
+            "atocCode": "TP",
+            "atocName": "Transpennine Express",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedArrival": "1351",
+                "gbttBookedDeparture": "1353",
+                "origin": [
+                    {
+                        "tiploc": "MNCRIAP",
+                        "description": "Manchester Airport",
+                        "workingTime": "133600",
+                        "publicTime": "1336"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "DLTN",
+                        "description": "Darlington",
+                        "workingTime": "161600",
+                        "publicTime": "1616"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeArrival": "1350",
+                "realtimeArrivalActual": false,
+                "realtimeDeparture": "1353",
+                "realtimeDepartureActual": false,
+                "platform": "14",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "CALL"
+            },
+            "serviceUid": "C30076",
+            "runDate": "2024-11-03",
+            "trainIdentity": "1P77",
+            "runningIdentity": "1P77",
+            "atocCode": "TP",
+            "atocName": "Transpennine Express",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedDeparture": "1355",
+                "origin": [
+                    {
+                        "tiploc": "MNCRPIC",
+                        "description": "Manchester Piccadilly",
+                        "workingTime": "135500",
+                        "publicTime": "1355"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "EUSTON",
+                        "description": "London Euston",
+                        "workingTime": "161000",
+                        "publicTime": "1610"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeDeparture": "1355",
+                "realtimeDepartureActual": false,
+                "platform": "5",
+                "platformConfirmed": true,
+                "platformChanged": true,
+                "serviceLocation": "AT_PLAT",
+                "displayAs": "ORIGIN"
+            },
+            "serviceUid": "C31289",
+            "runDate": "2024-11-03",
+            "trainIdentity": "1A39",
+            "runningIdentity": "1A39",
+            "atocCode": "VT",
+            "atocName": "Avanti West Coast",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedDeparture": "1357",
+                "origin": [
+                    {
+                        "tiploc": "MNCRPIC",
+                        "description": "Manchester Piccadilly",
+                        "workingTime": "135700",
+                        "publicTime": "1357"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "CHST",
+                        "description": "Chester",
+                        "workingTime": "145700",
+                        "publicTime": "1457"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeDeparture": "1357",
+                "realtimeDepartureActual": false,
+                "platform": "14",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "ORIGIN"
+            },
+            "serviceUid": "L39388",
+            "runDate": "2024-11-03",
+            "trainIdentity": "1D34",
+            "runningIdentity": "1D34",
+            "atocCode": "AW",
+            "atocName": "Transport for Wales",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedDeparture": "1358",
+                "origin": [
+                    {
+                        "tiploc": "MNCRPIC",
+                        "description": "Manchester Piccadilly",
+                        "workingTime": "135800",
+                        "publicTime": "1358"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "HDRSFLD",
+                        "description": "Huddersfield",
+                        "workingTime": "143800",
+                        "publicTime": "1438"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeDeparture": "1358",
+                "realtimeDepartureActual": false,
+                "platform": "1",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "ORIGIN"
+            },
+            "serviceUid": "C30254",
+            "runDate": "2024-11-03",
+            "trainIdentity": "2E67",
+            "runningIdentity": "2E67",
+            "atocCode": "TP",
+            "atocName": "Transpennine Express",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedArrival": "1359",
+                "gbttBookedDeparture": "1401",
+                "origin": [
+                    {
+                        "tiploc": "MNCRIAP",
+                        "description": "Manchester Airport",
+                        "workingTime": "134500",
+                        "publicTime": "1345"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "BLCKPLN",
+                        "description": "Blackpool North",
+                        "workingTime": "152600",
+                        "publicTime": "1526"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeArrival": "1359",
+                "realtimeArrivalActual": false,
+                "realtimeDeparture": "1401",
+                "realtimeDepartureActual": false,
+                "platform": "14",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "CALL"
+            },
+            "serviceUid": "G34904",
+            "runDate": "2024-11-03",
+            "trainIdentity": "1N59",
+            "runningIdentity": "1N59",
+            "atocCode": "NT",
+            "atocName": "Northern",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedDeparture": "1403",
+                "origin": [
+                    {
+                        "tiploc": "MNCRPIC",
+                        "description": "Manchester Piccadilly",
+                        "workingTime": "140300",
+                        "publicTime": "1403"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "BHAMNWS",
+                        "description": "Birmingham New Street",
+                        "workingTime": "153300",
+                        "publicTime": "1533"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeDeparture": "1403",
+                "realtimeDepartureActual": false,
+                "platform": "4",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "ORIGIN"
+            },
+            "serviceUid": "C79677",
+            "runDate": "2024-11-03",
+            "trainIdentity": "1V59",
+            "runningIdentity": "1V59",
+            "atocCode": "XC",
+            "atocName": "CrossCountry",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedDeparture": "1406",
+                "origin": [
+                    {
+                        "tiploc": "MNCRPIC",
+                        "description": "Manchester Piccadilly",
+                        "workingTime": "140600",
+                        "publicTime": "1406"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "CREWE",
+                        "description": "Crewe",
+                        "workingTime": "145300",
+                        "publicTime": "1453"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeDeparture": "1406",
+                "realtimeDepartureActual": false,
+                "platform": "9",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "ORIGIN"
+            },
+            "serviceUid": "G35626",
+            "runDate": "2024-11-03",
+            "trainIdentity": "2K36",
+            "runningIdentity": "2K36",
+            "atocCode": "NT",
+            "atocName": "Northern",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedArrival": "1403",
+                "gbttBookedDeparture": "1408",
+                "origin": [
+                    {
+                        "tiploc": "CLTHRPS",
+                        "description": "Cleethorpes",
+                        "workingTime": "112400",
+                        "publicTime": "1124"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "LVRPLSH",
+                        "description": "Liverpool Lime Street",
+                        "workingTime": "150100",
+                        "publicTime": "1501"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeArrival": "1402",
+                "realtimeArrivalActual": false,
+                "realtimeDeparture": "1408",
+                "realtimeDepartureActual": false,
+                "platform": "14",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "CALL"
+            },
+            "serviceUid": "C42406",
+            "runDate": "2024-11-03",
+            "trainIdentity": "1B77",
+            "runningIdentity": "1B77",
+            "atocCode": "TP",
+            "atocName": "Transpennine Express",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedDeparture": "1415",
+                "origin": [
+                    {
+                        "tiploc": "MNCRPIC",
+                        "description": "Manchester Piccadilly",
+                        "workingTime": "141500",
+                        "publicTime": "1415"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "EUSTON",
+                        "description": "London Euston",
+                        "workingTime": "163200",
+                        "publicTime": "1632"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeDeparture": "1415",
+                "realtimeDepartureActual": false,
+                "platform": "5",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "ORIGIN"
+            },
+            "serviceUid": "C21667",
+            "runDate": "2024-11-03",
+            "trainIdentity": "1A40",
+            "runningIdentity": "1A40",
+            "atocCode": "VT",
+            "atocName": "Avanti West Coast",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedArrival": "1411",
+                "gbttBookedDeparture": "1418",
+                "origin": [
+                    {
+                        "tiploc": "LVRPLSH",
+                        "description": "Liverpool Lime Street",
+                        "workingTime": "132000",
+                        "publicTime": "1320"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "CLTHRPS",
+                        "description": "Cleethorpes",
+                        "workingTime": "165130",
+                        "publicTime": "1653"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeArrival": "1411",
+                "realtimeArrivalActual": false,
+                "realtimeDeparture": "1418",
+                "realtimeDepartureActual": false,
+                "platform": "13",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "CALL"
+            },
+            "serviceUid": "C42416",
+            "runDate": "2024-11-03",
+            "trainIdentity": "1B80",
+            "runningIdentity": "1B80",
+            "atocCode": "TP",
+            "atocName": "Transpennine Express",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedDeparture": "1420",
+                "origin": [
+                    {
+                        "tiploc": "MNCRPIC",
+                        "description": "Manchester Piccadilly",
+                        "workingTime": "142000",
+                        "publicTime": "1420"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "HULL",
+                        "description": "Hull",
+                        "workingTime": "162000",
+                        "publicTime": "1621"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeDeparture": "1420",
+                "realtimeDepartureActual": false,
+                "platform": "1",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "ORIGIN"
+            },
+            "serviceUid": "C29858",
+            "runDate": "2024-11-03",
+            "trainIdentity": "1K23",
+            "runningIdentity": "1K23",
+            "atocCode": "TP",
+            "atocName": "Transpennine Express",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedArrival": "1420",
+                "gbttBookedDeparture": "1422",
+                "origin": [
+                    {
+                        "tiploc": "WLMSL",
+                        "description": "Wilmslow",
+                        "workingTime": "133800",
+                        "publicTime": "1338"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "LVRPLSH",
+                        "description": "Liverpool Lime Street",
+                        "workingTime": "152400",
+                        "publicTime": "1524"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeArrival": "1419",
+                "realtimeArrivalActual": false,
+                "realtimeDeparture": "1422",
+                "realtimeDepartureActual": false,
+                "platform": "14",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "CALL"
+            },
+            "serviceUid": "G35415",
+            "runDate": "2024-11-03",
+            "trainIdentity": "2F16",
+            "runningIdentity": "2F16",
+            "atocCode": "NT",
+            "atocName": "Northern",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedDeparture": "1425",
+                "origin": [
+                    {
+                        "tiploc": "MNCRPIC",
+                        "description": "Manchester Piccadilly",
+                        "workingTime": "142500",
+                        "publicTime": "1425"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "DIDCOTP",
+                        "description": "Didcot Parkway",
+                        "workingTime": "172900",
+                        "publicTime": "1729"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeDeparture": "1425",
+                "realtimeDepartureActual": false,
+                "platform": "4",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "ORIGIN"
+            },
+            "serviceUid": "C79576",
+            "runDate": "2024-11-03",
+            "trainIdentity": "1O22",
+            "runningIdentity": "1O22",
+            "atocCode": "XC",
+            "atocName": "CrossCountry",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedDeparture": "1430",
+                "origin": [
+                    {
+                        "tiploc": "MNCRPIC",
+                        "description": "Manchester Piccadilly",
+                        "workingTime": "143000",
+                        "publicTime": "1430"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "SWANSEA",
+                        "description": "Swansea",
+                        "workingTime": "190900",
+                        "publicTime": "1910"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeDeparture": "1430",
+                "realtimeDepartureActual": false,
+                "platform": "3",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "ORIGIN"
+            },
+            "serviceUid": "L40367",
+            "runDate": "2024-11-03",
+            "trainIdentity": "1V16",
+            "runningIdentity": "1V16",
+            "atocCode": "AW",
+            "atocName": "Transport for Wales",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedArrival": "1430",
+                "gbttBookedDeparture": "1432",
+                "origin": [
+                    {
+                        "tiploc": "LVRPLSH",
+                        "description": "Liverpool Lime Street",
+                        "workingTime": "132900",
+                        "publicTime": "1329"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "WLMSL",
+                        "description": "Wilmslow",
+                        "workingTime": "151000",
+                        "publicTime": "1510"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeArrival": "1430",
+                "realtimeArrivalActual": false,
+                "realtimeDeparture": "1432",
+                "realtimeDepartureActual": false,
+                "platform": "13",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "CALL"
+            },
+            "serviceUid": "G35080",
+            "runDate": "2024-11-03",
+            "trainIdentity": "2A95",
+            "runningIdentity": "2A95",
+            "atocCode": "NT",
+            "atocName": "Northern",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedDeparture": "1433",
+                "origin": [
+                    {
+                        "tiploc": "MNCRPIC",
+                        "description": "Manchester Piccadilly",
+                        "workingTime": "143300",
+                        "publicTime": "1433"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "HADFILD",
+                        "description": "Hadfield",
+                        "workingTime": "151200",
+                        "publicTime": "1512"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeDeparture": "1433",
+                "realtimeDepartureActual": false,
+                "platform": "2",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "ORIGIN"
+            },
+            "serviceUid": "G35429",
+            "runDate": "2024-11-03",
+            "trainIdentity": "2G10",
+            "runningIdentity": "2G10",
+            "atocCode": "NT",
+            "atocName": "Northern",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedDeparture": "1435",
+                "origin": [
+                    {
+                        "tiploc": "MNCRPIC",
+                        "description": "Manchester Piccadilly",
+                        "workingTime": "143500",
+                        "publicTime": "1435"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "EUSTON",
+                        "description": "London Euston",
+                        "workingTime": "164500",
+                        "publicTime": "1645"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeDeparture": "1435",
+                "realtimeDepartureActual": false,
+                "platform": "6",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "ORIGIN"
+            },
+            "serviceUid": "C21673",
+            "runDate": "2024-11-03",
+            "trainIdentity": "1A43",
+            "runningIdentity": "1A43",
+            "atocCode": "VT",
+            "atocName": "Avanti West Coast",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedArrival": "1437",
+                "gbttBookedDeparture": "1439",
+                "origin": [
+                    {
+                        "tiploc": "NRCH",
+                        "description": "Norwich",
+                        "workingTime": "095500",
+                        "publicTime": "0955"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "LVRPLSH",
+                        "description": "Liverpool Lime Street",
+                        "workingTime": "152900",
+                        "publicTime": "1529"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeArrival": "1437",
+                "realtimeArrivalActual": false,
+                "realtimeDeparture": "1439",
+                "realtimeDepartureActual": false,
+                "platform": "14",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "CALL"
+            },
+            "serviceUid": "C62097",
+            "runDate": "2024-11-03",
+            "trainIdentity": "1R56",
+            "runningIdentity": "1R56",
+            "atocCode": "EM",
+            "atocName": "East Midlands Railway",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedArrival": "1437",
+                "gbttBookedDeparture": "1439",
+                "origin": [
+                    {
+                        "tiploc": "CHST",
+                        "description": "Chester",
+                        "workingTime": "133600",
+                        "publicTime": "1336"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "MNCRIAP",
+                        "description": "Manchester Airport",
+                        "workingTime": "145700",
+                        "publicTime": "1457"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeArrival": "1436",
+                "realtimeArrivalActual": false,
+                "realtimeDeparture": "1439",
+                "realtimeDepartureActual": false,
+                "platform": "13",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "CALL"
+            },
+            "serviceUid": "L39792",
+            "runDate": "2024-11-03",
+            "trainIdentity": "1H84",
+            "runningIdentity": "1H84",
+            "atocCode": "AW",
+            "atocName": "Transport for Wales",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedArrival": "1442",
+                "gbttBookedDeparture": "1443",
+                "origin": [
+                    {
+                        "tiploc": "LVRPLSH",
+                        "description": "Liverpool Lime Street",
+                        "workingTime": "135100",
+                        "publicTime": "1351"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "NRCH",
+                        "description": "Norwich",
+                        "workingTime": "192500",
+                        "publicTime": "1927"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeArrival": "1441",
+                "realtimeArrivalActual": false,
+                "realtimeDeparture": "1443",
+                "realtimeDepartureActual": false,
+                "platform": "13",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "CALL"
+            },
+            "serviceUid": "C61969",
+            "runDate": "2024-11-03",
+            "trainIdentity": "1L12",
+            "runningIdentity": "1L12",
+            "atocCode": "EM",
+            "atocName": "East Midlands Railway",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedArrival": "1446",
+                "gbttBookedDeparture": "1447",
+                "origin": [
+                    {
+                        "tiploc": "GLGC",
+                        "description": "Glasgow Central",
+                        "workingTime": "110700",
+                        "publicTime": "1107"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "MNCRIAP",
+                        "description": "Manchester Airport",
+                        "workingTime": "150600",
+                        "publicTime": "1508"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeArrival": "1445",
+                "realtimeArrivalActual": false,
+                "realtimeDeparture": "1447",
+                "realtimeDepartureActual": false,
+                "platform": "13",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "CALL"
+            },
+            "serviceUid": "C29919",
+            "runDate": "2024-11-03",
+            "trainIdentity": "1M86",
+            "runningIdentity": "1M86",
+            "atocCode": "TP",
+            "atocName": "Transpennine Express",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedArrival": "1450",
+                "gbttBookedDeparture": "1451",
+                "origin": [
+                    {
+                        "tiploc": "DLTN",
+                        "description": "Darlington",
+                        "workingTime": "122700",
+                        "publicTime": "1227"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "MNCRIAP",
+                        "description": "Manchester Airport",
+                        "workingTime": "151000",
+                        "publicTime": "1512"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeArrival": "1449",
+                "realtimeArrivalActual": false,
+                "realtimeDeparture": "1451",
+                "realtimeDepartureActual": false,
+                "platform": "13",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "CALL"
+            },
+            "serviceUid": "C30056",
+            "runDate": "2024-11-03",
+            "trainIdentity": "1P72",
+            "runningIdentity": "1P72",
+            "atocCode": "TP",
+            "atocName": "Transpennine Express",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedArrival": "1451",
+                "gbttBookedDeparture": "1453",
+                "origin": [
+                    {
+                        "tiploc": "MNCRIAP",
+                        "description": "Manchester Airport",
+                        "workingTime": "143600",
+                        "publicTime": "1436"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "DLTN",
+                        "description": "Darlington",
+                        "workingTime": "172000",
+                        "publicTime": "1720"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeArrival": "1450",
+                "realtimeArrivalActual": false,
+                "realtimeDeparture": "1453",
+                "realtimeDepartureActual": false,
+                "platform": "14",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "CALL"
+            },
+            "serviceUid": "C30084",
+            "runDate": "2024-11-03",
+            "trainIdentity": "1P79",
+            "runningIdentity": "1P79",
+            "atocCode": "TP",
+            "atocName": "Transpennine Express",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedDeparture": "1455",
+                "origin": [
+                    {
+                        "tiploc": "MNCRPIC",
+                        "description": "Manchester Piccadilly",
+                        "workingTime": "145500",
+                        "publicTime": "1455"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "EUSTON",
+                        "description": "London Euston",
+                        "workingTime": "171000",
+                        "publicTime": "1710"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeDeparture": "1455",
+                "realtimeDepartureActual": false,
+                "platform": "7",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "ORIGIN"
+            },
+            "serviceUid": "C31303",
+            "runDate": "2024-11-03",
+            "trainIdentity": "1A45",
+            "runningIdentity": "1A45",
+            "atocCode": "VT",
+            "atocName": "Avanti West Coast",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedArrival": "1455",
+                "gbttBookedDeparture": "1457",
+                "origin": [
+                    {
+                        "tiploc": "MNCRIAP",
+                        "description": "Manchester Airport",
+                        "workingTime": "144100",
+                        "publicTime": "1441"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "CHST",
+                        "description": "Chester",
+                        "workingTime": "155700",
+                        "publicTime": "1557"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeArrival": "1455",
+                "realtimeArrivalActual": false,
+                "realtimeDeparture": "1457",
+                "realtimeDepartureActual": false,
+                "platform": "14",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "CALL"
+            },
+            "serviceUid": "L39398",
+            "runDate": "2024-11-03",
+            "trainIdentity": "1D35",
+            "runningIdentity": "1D35",
+            "atocCode": "AW",
+            "atocName": "Transport for Wales",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedDeparture": "1458",
+                "origin": [
+                    {
+                        "tiploc": "MNCRPIC",
+                        "description": "Manchester Piccadilly",
+                        "workingTime": "145800",
+                        "publicTime": "1458"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "HDRSFLD",
+                        "description": "Huddersfield",
+                        "workingTime": "153800",
+                        "publicTime": "1538"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeDeparture": "1458",
+                "realtimeDepartureActual": false,
+                "platform": "1",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "ORIGIN"
+            },
+            "serviceUid": "C30256",
+            "runDate": "2024-11-03",
+            "trainIdentity": "2E69",
+            "runningIdentity": "2E69",
+            "atocCode": "TP",
+            "atocName": "Transpennine Express",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedDeparture": "1503",
+                "origin": [
+                    {
+                        "tiploc": "MNCRPIC",
+                        "description": "Manchester Piccadilly",
+                        "workingTime": "150300",
+                        "publicTime": "1503"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "BHAMNWS",
+                        "description": "Birmingham New Street",
+                        "workingTime": "163300",
+                        "publicTime": "1633"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeDeparture": "1503",
+                "realtimeDepartureActual": false,
+                "platform": "4",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "ORIGIN"
+            },
+            "serviceUid": "C79679",
+            "runDate": "2024-11-03",
+            "trainIdentity": "1V61",
+            "runningIdentity": "1V61",
+            "atocCode": "XC",
+            "atocName": "CrossCountry",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedDeparture": "1503",
+                "origin": [
+                    {
+                        "tiploc": "MNCRPIC",
+                        "description": "Manchester Piccadilly",
+                        "workingTime": "150300",
+                        "publicTime": "1503"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "HADFILD",
+                        "description": "Hadfield",
+                        "workingTime": "154200",
+                        "publicTime": "1542"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeDeparture": "1503",
+                "realtimeDepartureActual": false,
+                "platform": "2",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "ORIGIN"
+            },
+            "serviceUid": "G35430",
+            "runDate": "2024-11-03",
+            "trainIdentity": "2G11",
+            "runningIdentity": "2G11",
+            "atocCode": "NT",
+            "atocName": "Northern",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedArrival": "1508",
+                "gbttBookedDeparture": "1509",
+                "origin": [
+                    {
+                        "tiploc": "CLTHRPS",
+                        "description": "Cleethorpes",
+                        "workingTime": "122400",
+                        "publicTime": "1224"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "LVRPLSH",
+                        "description": "Liverpool Lime Street",
+                        "workingTime": "160100",
+                        "publicTime": "1601"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeArrival": "1507",
+                "realtimeArrivalActual": false,
+                "realtimeDeparture": "1509",
+                "realtimeDepartureActual": false,
+                "platform": "14",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "CALL"
+            },
+            "serviceUid": "C42414",
+            "runDate": "2024-11-03",
+            "trainIdentity": "1B79",
+            "runningIdentity": "1B79",
+            "atocCode": "TP",
+            "atocName": "Transpennine Express",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedArrival": "1512",
+                "gbttBookedDeparture": "1514",
+                "origin": [
+                    {
+                        "tiploc": "MNCRIAP",
+                        "description": "Manchester Airport",
+                        "workingTime": "145000",
+                        "publicTime": "1450"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "GLGC",
+                        "description": "Glasgow Central",
+                        "workingTime": "184100",
+                        "publicTime": "1841"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeArrival": "1511",
+                "realtimeArrivalActual": false,
+                "realtimeDeparture": "1514",
+                "realtimeDepartureActual": false,
+                "platform": "14",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "CALL"
+            },
+            "serviceUid": "C30166",
+            "runDate": "2024-11-03",
+            "trainIdentity": "1S71",
+            "runningIdentity": "1S71",
+            "atocCode": "TP",
+            "atocName": "Transpennine Express",
+            "serviceType": "train",
+            "isPassenger": true
+        },
+        {
+            "locationDetail": {
+                "realtimeActivated": true,
+                "tiploc": "MNCRPIC",
+                "crs": "MAN",
+                "description": "Manchester Piccadilly",
+                "gbttBookedDeparture": "1515",
+                "origin": [
+                    {
+                        "tiploc": "MNCRPIC",
+                        "description": "Manchester Piccadilly",
+                        "workingTime": "151500",
+                        "publicTime": "1515"
+                    }
+                ],
+                "destination": [
+                    {
+                        "tiploc": "EUSTON",
+                        "description": "London Euston",
+                        "workingTime": "173300",
+                        "publicTime": "1733"
+                    }
+                ],
+                "isCall": true,
+                "isPublicCall": true,
+                "realtimeDeparture": "1515",
+                "realtimeDepartureActual": false,
+                "platform": "6",
+                "platformConfirmed": false,
+                "platformChanged": false,
+                "displayAs": "ORIGIN"
+            },
+            "serviceUid": "C31305",
+            "runDate": "2024-11-03",
+            "trainIdentity": "1A46",
+            "runningIdentity": "1A46",
+            "atocCode": "VT",
+            "atocName": "Avanti West Coast",
+            "serviceType": "train",
+            "isPassenger": true
+        }
+    ]
+}
