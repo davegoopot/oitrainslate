@@ -1,0 +1,615 @@
+{
+    "serviceUid": "C42381",
+    "runDate": "2024-11-08",
+    "serviceType": "train",
+    "isPassenger": true,
+    "trainIdentity": "1B68",
+    "powerType": "DMU",
+    "trainClass": "B",
+    "atocCode": "TP",
+    "atocName": "Transpennine Express",
+    "performanceMonitored": true,
+    "origin": [
+        {
+            "tiploc": "LVRPLSH",
+            "description": "Liverpool Lime Street",
+            "workingTime": "071900",
+            "publicTime": "0719"
+        }
+    ],
+    "destination": [
+        {
+            "tiploc": "CLTHRPS",
+            "description": "Cleethorpes",
+            "workingTime": "105230",
+            "publicTime": "1053"
+        }
+    ],
+    "locations": [
+        {
+            "realtimeActivated": true,
+            "tiploc": "LVRPLSH",
+            "crs": "LIV",
+            "description": "Liverpool Lime Street",
+            "gbttBookedDeparture": "0719",
+            "origin": [
+                {
+                    "tiploc": "LVRPLSH",
+                    "description": "Liverpool Lime Street",
+                    "workingTime": "071900",
+                    "publicTime": "0719"
+                }
+            ],
+            "destination": [
+                {
+                    "tiploc": "CLTHRPS",
+                    "description": "Cleethorpes",
+                    "workingTime": "105230",
+                    "publicTime": "1053"
+                }
+            ],
+            "isCall": true,
+            "isPublicCall": true,
+            "realtimeDeparture": "0718",
+            "realtimeDepartureActual": true,
+            "realtimeGbttDepartureLateness": null,
+            "platform": "8",
+            "platformConfirmed": true,
+            "platformChanged": false,
+            "line": "UDF",
+            "lineConfirmed": true,
+            "displayAs": "ORIGIN"
+        },
+        {
+            "realtimeActivated": true,
+            "tiploc": "ALERTN",
+            "crs": "LPY",
+            "description": "Liverpool South Parkway",
+            "gbttBookedArrival": "0729",
+            "gbttBookedDeparture": "0729",
+            "origin": [
+                {
+                    "tiploc": "LVRPLSH",
+                    "description": "Liverpool Lime Street",
+                    "workingTime": "071900",
+                    "publicTime": "0719"
+                }
+            ],
+            "destination": [
+                {
+                    "tiploc": "CLTHRPS",
+                    "description": "Cleethorpes",
+                    "workingTime": "105230",
+                    "publicTime": "1053"
+                }
+            ],
+            "isCall": true,
+            "isPublicCall": true,
+            "realtimeArrival": "0728",
+            "realtimeArrivalActual": true,
+            "realtimeDeparture": "0729",
+            "realtimeDepartureActual": true,
+            "realtimeGbttArrivalLateness": null,
+            "platform": "1",
+            "platformConfirmed": true,
+            "platformChanged": false,
+            "line": "UHC",
+            "lineConfirmed": true,
+            "path": "UDF",
+            "pathConfirmed": true,
+            "displayAs": "CALL"
+        },
+        {
+            "realtimeActivated": true,
+            "tiploc": "WRGTWST",
+            "crs": "WAW",
+            "description": "Warrington West",
+            "gbttBookedArrival": "0741",
+            "gbttBookedDeparture": "0741",
+            "origin": [
+                {
+                    "tiploc": "LVRPLSH",
+                    "description": "Liverpool Lime Street",
+                    "workingTime": "071900",
+                    "publicTime": "0719"
+                }
+            ],
+            "destination": [
+                {
+                    "tiploc": "CLTHRPS",
+                    "description": "Cleethorpes",
+                    "workingTime": "105230",
+                    "publicTime": "1053"
+                }
+            ],
+            "isCall": true,
+            "isPublicCall": true,
+            "realtimeArrival": "0740",
+            "realtimeArrivalActual": true,
+            "realtimeDeparture": "0741",
+            "realtimeDepartureActual": true,
+            "realtimeGbttArrivalLateness": null,
+            "platform": "1",
+            "platformConfirmed": true,
+            "platformChanged": false,
+            "displayAs": "CALL"
+        },
+        {
+            "realtimeActivated": true,
+            "tiploc": "WRGT",
+            "crs": "WAC",
+            "description": "Warrington Central",
+            "gbttBookedArrival": "0745",
+            "gbttBookedDeparture": "0745",
+            "origin": [
+                {
+                    "tiploc": "LVRPLSH",
+                    "description": "Liverpool Lime Street",
+                    "workingTime": "071900",
+                    "publicTime": "0719"
+                }
+            ],
+            "destination": [
+                {
+                    "tiploc": "CLTHRPS",
+                    "description": "Cleethorpes",
+                    "workingTime": "105230",
+                    "publicTime": "1053"
+                }
+            ],
+            "isCall": true,
+            "isPublicCall": true,
+            "realtimeArrival": "0744",
+            "realtimeArrivalActual": true,
+            "realtimeDeparture": "0746",
+            "realtimeDepartureActual": true,
+            "realtimeGbttArrivalLateness": null,
+            "realtimeGbttDepartureLateness": null,
+            "platform": "1",
+            "platformConfirmed": true,
+            "platformChanged": false,
+            "displayAs": "CALL"
+        },
+        {
+            "realtimeActivated": true,
+            "tiploc": "BIRCHWD",
+            "crs": "BWD",
+            "description": "Birchwood",
+            "gbttBookedArrival": "0750",
+            "gbttBookedDeparture": "0750",
+            "origin": [
+                {
+                    "tiploc": "LVRPLSH",
+                    "description": "Liverpool Lime Street",
+                    "workingTime": "071900",
+                    "publicTime": "0719"
+                }
+            ],
+            "destination": [
+                {
+                    "tiploc": "CLTHRPS",
+                    "description": "Cleethorpes",
+                    "workingTime": "105230",
+                    "publicTime": "1053"
+                }
+            ],
+            "isCall": true,
+            "isPublicCall": true,
+            "realtimeArrival": "0750",
+            "realtimeArrivalActual": false,
+            "realtimeDeparture": "0751",
+            "realtimeDepartureActual": false,
+            "displayAs": "CALL"
+        },
+        {
+            "realtimeActivated": true,
+            "tiploc": "IRLAM",
+            "crs": "IRL",
+            "description": "Irlam",
+            "gbttBookedArrival": "0755",
+            "gbttBookedDeparture": "0755",
+            "origin": [
+                {
+                    "tiploc": "LVRPLSH",
+                    "description": "Liverpool Lime Street",
+                    "workingTime": "071900",
+                    "publicTime": "0719"
+                }
+            ],
+            "destination": [
+                {
+                    "tiploc": "CLTHRPS",
+                    "description": "Cleethorpes",
+                    "workingTime": "105230",
+                    "publicTime": "1053"
+                }
+            ],
+            "isCall": true,
+            "isPublicCall": true,
+            "realtimeArrival": "0755",
+            "realtimeArrivalActual": false,
+            "realtimeDeparture": "0756",
+            "realtimeDepartureActual": false,
+            "displayAs": "CALL"
+        },
+        {
+            "realtimeActivated": true,
+            "tiploc": "MNCROXR",
+            "crs": "MCO",
+            "description": "Manchester Oxford Road",
+            "gbttBookedArrival": "0807",
+            "gbttBookedDeparture": "0809",
+            "origin": [
+                {
+                    "tiploc": "LVRPLSH",
+                    "description": "Liverpool Lime Street",
+                    "workingTime": "071900",
+                    "publicTime": "0719"
+                }
+            ],
+            "destination": [
+                {
+                    "tiploc": "CLTHRPS",
+                    "description": "Cleethorpes",
+                    "workingTime": "105230",
+                    "publicTime": "1053"
+                }
+            ],
+            "isCall": true,
+            "isPublicCall": true,
+            "realtimeArrival": "0807",
+            "realtimeArrivalActual": false,
+            "realtimeDeparture": "0809",
+            "realtimeDepartureActual": false,
+            "platform": "4",
+            "platformConfirmed": false,
+            "platformChanged": false,
+            "displayAs": "CALL"
+        },
+        {
+            "realtimeActivated": true,
+            "tiploc": "MNCRPIC",
+            "crs": "MAN",
+            "description": "Manchester Piccadilly",
+            "gbttBookedArrival": "0811",
+            "gbttBookedDeparture": "0813",
+            "origin": [
+                {
+                    "tiploc": "LVRPLSH",
+                    "description": "Liverpool Lime Street",
+                    "workingTime": "071900",
+                    "publicTime": "0719"
+                }
+            ],
+            "destination": [
+                {
+                    "tiploc": "CLTHRPS",
+                    "description": "Cleethorpes",
+                    "workingTime": "105230",
+                    "publicTime": "1053"
+                }
+            ],
+            "isCall": true,
+            "isPublicCall": true,
+            "realtimeArrival": "0811",
+            "realtimeArrivalActual": false,
+            "realtimeDeparture": "0813",
+            "realtimeDepartureActual": false,
+            "platform": "13",
+            "platformConfirmed": false,
+            "platformChanged": false,
+            "line": "SL",
+            "lineConfirmed": false,
+            "displayAs": "CALL"
+        },
+        {
+            "realtimeActivated": true,
+            "tiploc": "STKP",
+            "crs": "SPT",
+            "description": "Stockport",
+            "gbttBookedArrival": "0824",
+            "gbttBookedDeparture": "0825",
+            "origin": [
+                {
+                    "tiploc": "LVRPLSH",
+                    "description": "Liverpool Lime Street",
+                    "workingTime": "071900",
+                    "publicTime": "0719"
+                }
+            ],
+            "destination": [
+                {
+                    "tiploc": "CLTHRPS",
+                    "description": "Cleethorpes",
+                    "workingTime": "105230",
+                    "publicTime": "1053"
+                }
+            ],
+            "isCall": true,
+            "isPublicCall": true,
+            "realtimeArrival": "0824",
+            "realtimeArrivalActual": false,
+            "realtimeDeparture": "0825",
+            "realtimeDepartureActual": false,
+            "platform": "1",
+            "platformConfirmed": false,
+            "platformChanged": false,
+            "displayAs": "CALL"
+        },
+        {
+            "realtimeActivated": true,
+            "tiploc": "SHEFFLD",
+            "crs": "SHF",
+            "description": "Sheffield",
+            "gbttBookedArrival": "0909",
+            "gbttBookedDeparture": "0911",
+            "origin": [
+                {
+                    "tiploc": "LVRPLSH",
+                    "description": "Liverpool Lime Street",
+                    "workingTime": "071900",
+                    "publicTime": "0719"
+                }
+            ],
+            "destination": [
+                {
+                    "tiploc": "CLTHRPS",
+                    "description": "Cleethorpes",
+                    "workingTime": "105230",
+                    "publicTime": "1053"
+                }
+            ],
+            "isCall": true,
+            "isPublicCall": true,
+            "realtimeArrival": "0909",
+            "realtimeArrivalActual": false,
+            "realtimeDeparture": "0911",
+            "realtimeDepartureActual": false,
+            "platform": "1B",
+            "platformConfirmed": false,
+            "platformChanged": false,
+            "displayAs": "CALL"
+        },
+        {
+            "realtimeActivated": true,
+            "tiploc": "MEADWHL",
+            "crs": "MHS",
+            "description": "Meadowhall",
+            "gbttBookedArrival": "0916",
+            "gbttBookedDeparture": "0917",
+            "origin": [
+                {
+                    "tiploc": "LVRPLSH",
+                    "description": "Liverpool Lime Street",
+                    "workingTime": "071900",
+                    "publicTime": "0719"
+                }
+            ],
+            "destination": [
+                {
+                    "tiploc": "CLTHRPS",
+                    "description": "Cleethorpes",
+                    "workingTime": "105230",
+                    "publicTime": "1053"
+                }
+            ],
+            "isCall": true,
+            "isPublicCall": true,
+            "realtimeArrival": "0916",
+            "realtimeArrivalActual": false,
+            "realtimeDeparture": "0917",
+            "realtimeDepartureActual": false,
+            "platform": "2",
+            "platformConfirmed": false,
+            "platformChanged": false,
+            "displayAs": "CALL"
+        },
+        {
+            "realtimeActivated": true,
+            "tiploc": "DONC",
+            "crs": "DON",
+            "description": "Doncaster",
+            "gbttBookedArrival": "0937",
+            "gbttBookedDeparture": "0939",
+            "origin": [
+                {
+                    "tiploc": "LVRPLSH",
+                    "description": "Liverpool Lime Street",
+                    "workingTime": "071900",
+                    "publicTime": "0719"
+                }
+            ],
+            "destination": [
+                {
+                    "tiploc": "CLTHRPS",
+                    "description": "Cleethorpes",
+                    "workingTime": "105230",
+                    "publicTime": "1053"
+                }
+            ],
+            "isCall": true,
+            "isPublicCall": true,
+            "realtimeArrival": "0937",
+            "realtimeArrivalActual": false,
+            "realtimeDeparture": "0939",
+            "realtimeDepartureActual": false,
+            "platform": "8",
+            "platformConfirmed": false,
+            "platformChanged": false,
+            "displayAs": "CALL"
+        },
+        {
+            "realtimeActivated": true,
+            "tiploc": "SCNTHRP",
+            "crs": "SCU",
+            "description": "Scunthorpe",
+            "gbttBookedArrival": "1004",
+            "gbttBookedDeparture": "1005",
+            "origin": [
+                {
+                    "tiploc": "LVRPLSH",
+                    "description": "Liverpool Lime Street",
+                    "workingTime": "071900",
+                    "publicTime": "0719"
+                }
+            ],
+            "destination": [
+                {
+                    "tiploc": "CLTHRPS",
+                    "description": "Cleethorpes",
+                    "workingTime": "105230",
+                    "publicTime": "1053"
+                }
+            ],
+            "isCall": true,
+            "isPublicCall": true,
+            "realtimeArrival": "1004",
+            "realtimeArrivalActual": false,
+            "realtimeDeparture": "1005",
+            "realtimeDepartureActual": false,
+            "platform": "1",
+            "platformConfirmed": false,
+            "platformChanged": false,
+            "displayAs": "CALL"
+        },
+        {
+            "realtimeActivated": true,
+            "tiploc": "BNTBY",
+            "crs": "BTB",
+            "description": "Barnetby",
+            "gbttBookedArrival": "1019",
+            "gbttBookedDeparture": "1020",
+            "origin": [
+                {
+                    "tiploc": "LVRPLSH",
+                    "description": "Liverpool Lime Street",
+                    "workingTime": "071900",
+                    "publicTime": "0719"
+                }
+            ],
+            "destination": [
+                {
+                    "tiploc": "CLTHRPS",
+                    "description": "Cleethorpes",
+                    "workingTime": "105230",
+                    "publicTime": "1053"
+                }
+            ],
+            "isCall": true,
+            "isPublicCall": true,
+            "realtimeArrival": "1018",
+            "realtimeArrivalActual": false,
+            "realtimeDeparture": "1020",
+            "realtimeDepartureActual": false,
+            "platform": "2",
+            "platformConfirmed": false,
+            "platformChanged": false,
+            "displayAs": "CALL"
+        },
+        {
+            "realtimeActivated": true,
+            "tiploc": "HABRO",
+            "crs": "HAB",
+            "description": "Habrough",
+            "gbttBookedArrival": "1028",
+            "gbttBookedDeparture": "1029",
+            "origin": [
+                {
+                    "tiploc": "LVRPLSH",
+                    "description": "Liverpool Lime Street",
+                    "workingTime": "071900",
+                    "publicTime": "0719"
+                }
+            ],
+            "destination": [
+                {
+                    "tiploc": "CLTHRPS",
+                    "description": "Cleethorpes",
+                    "workingTime": "105230",
+                    "publicTime": "1053"
+                }
+            ],
+            "isCall": true,
+            "isPublicCall": true,
+            "realtimeArrival": "1027",
+            "realtimeArrivalActual": false,
+            "realtimeDeparture": "1029",
+            "realtimeDepartureActual": false,
+            "displayAs": "CALL"
+        },
+        {
+            "realtimeActivated": true,
+            "tiploc": "GRMSBYT",
+            "crs": "GMB",
+            "description": "Grimsby Town",
+            "gbttBookedArrival": "1042",
+            "gbttBookedDeparture": "1043",
+            "origin": [
+                {
+                    "tiploc": "LVRPLSH",
+                    "description": "Liverpool Lime Street",
+                    "workingTime": "071900",
+                    "publicTime": "0719"
+                }
+            ],
+            "destination": [
+                {
+                    "tiploc": "CLTHRPS",
+                    "description": "Cleethorpes",
+                    "workingTime": "105230",
+                    "publicTime": "1053"
+                }
+            ],
+            "isCall": true,
+            "isPublicCall": true,
+            "realtimeArrival": "1041",
+            "realtimeArrivalActual": false,
+            "realtimeDeparture": "1043",
+            "realtimeDepartureActual": false,
+            "platform": "1",
+            "platformConfirmed": false,
+            "platformChanged": false,
+            "displayAs": "CALL"
+        },
+        {
+            "realtimeActivated": true,
+            "tiploc": "CLTHRPS",
+            "crs": "CLE",
+            "description": "Cleethorpes",
+            "gbttBookedArrival": "1053",
+            "origin": [
+                {
+                    "tiploc": "LVRPLSH",
+                    "description": "Liverpool Lime Street",
+                    "workingTime": "071900",
+                    "publicTime": "0719"
+                }
+            ],
+            "destination": [
+                {
+                    "tiploc": "CLTHRPS",
+                    "description": "Cleethorpes",
+                    "workingTime": "105230",
+                    "publicTime": "1053"
+                }
+            ],
+            "isCall": true,
+            "isPublicCall": true,
+            "realtimeArrival": "1050",
+            "realtimeArrivalActual": false,
+            "platform": "2",
+            "platformConfirmed": false,
+            "platformChanged": false,
+            "displayAs": "DESTINATION",
+            "associations": [
+                {
+                    "type": "next",
+                    "associatedUid": "C42407",
+                    "associatedRunDate": "2024-11-08"
+                }
+            ]
+        }
+    ],
+    "realtimeActivated": true,
+    "runningIdentity": "1B68"
+}
