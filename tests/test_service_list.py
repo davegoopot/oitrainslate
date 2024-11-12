@@ -2,7 +2,6 @@
     Tests that test the creation of ServiceDetails objects from the JSON data.
 """
 
-import json
 import os
 from oitrainslate import ServiceDetails
 from datetime import datetime

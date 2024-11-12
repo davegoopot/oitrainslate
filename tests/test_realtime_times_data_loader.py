@@ -1,7 +1,7 @@
 
 import os
 import pytest
-from oitrainslate.realtime_times_data_loader import RealTimeTimesDataLoader
+from oitrainslate import RealTimeTimesDataLoader
 from dotenv import load_dotenv
 
 load_dotenv()
