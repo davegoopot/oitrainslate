@@ -21,3 +21,6 @@ class ServiceDetails:
         run_date = datetime.strptime(all_json['runDate'], '%Y-%m-%d').date()
         calling_points = tuple(loc["tiploc"] for loc in all_json['locations'])
         return ServiceDetails(service_id, run_date, calling_points)
+    
+    def stops_at(self, station):
+        return station in self.calling_points

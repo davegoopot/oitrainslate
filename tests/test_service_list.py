@@ -37,3 +37,21 @@ def test_create_service_details_from_json():
 
     assert service_details.calling_points == expected_calling_points
     assert type(service_details.calling_points) == tuple
+
+
+def test_stops_at_one_station():
+    service_details = ServiceDetails("dummy id", datetime(2024, 11, 8).date(), ("STATION1",))
+    assert service_details.stops_at("STATION1")
+    assert not service_details.stops_at("STATION2")
+
+def test_stops_at_multiple_stations():
+    service_details = ServiceDetails("dummy id", datetime(2024, 11, 8).date(), ("STATION1", "STATION2", "STATION3"))
+    assert service_details.stops_at("STATION1")
+    assert service_details.stops_at("STATION2")
+    assert service_details.stops_at("STATION3")
+    assert not service_details.stops_at("STATION4")
+
+def test_stops_at_no_stations():
+    service_details = ServiceDetails("dummy id", datetime(2024, 11, 8).date(), ())
+    assert not service_details.stops_at("STATION1")
+    
