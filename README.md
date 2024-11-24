@@ -8,9 +8,15 @@ Self hosted system to send alerts when your train is delayed.
 
 ## Release 1 - Simple Command Line Tool
 
-The first release will require python and will run with pipx. 
+The first release will require python and will run with uv. 
 
 The only functionality will be to accept a starting and destination station and return the expected and
 actual departure times for services between those stations.
 
-Example usage: `pipx run oitrainslate BWD URM`
+Example usage: 
+```
+pip install uv
+$env:RTTUSERNAME="yourusername"
+$env:RTTPASSWORD="yourpassword"
+uvx --from git+https://github.com/davegoopot/oitrainslate tracktrain bwd urm
+```
