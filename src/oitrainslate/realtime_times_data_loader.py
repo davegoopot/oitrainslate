@@ -1,4 +1,5 @@
 import json
+from typing import List
 import requests
 
 from oitrainslate import ServiceDetails
@@ -20,7 +21,7 @@ class RealTimeTimesDataLoader:
         return response.text
     
 
-    def retrieveServicesFromSearch(self, departure_station_code: str, destination_station_code: str):
+    def retrieveServicesFromSearch(self, departure_station_code: str, destination_station_code: str) -> List[ServiceDetails]:
         station_info = self.retrieveStationInformationJson(departure_station_code, destination_station_code)
         parsed_info = json.loads(station_info)
         services = parsed_info['services']
